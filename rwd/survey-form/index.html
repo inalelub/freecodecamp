@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the survey form below. Your contribution is much appreciated.</p>
+
+    <form id="survey-form" action="" method="post" />
+    <fieldset>
+        <label for="" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+        <label for="" id="email-label"> Email<input type="email" id="email" placeholder="Enter your email" required /></label>
+        <label for="" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
+    </fieldset>
+    </form>
     
 </body>
 </html>
