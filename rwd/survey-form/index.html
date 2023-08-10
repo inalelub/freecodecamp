@@ -12,10 +12,29 @@
 
     <form id="survey-form" action="" method="post" />
     <fieldset>
-        <label for="" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
-        <label for="" id="email-label"> Email<input type="email" id="email" placeholder="Enter your email" required /></label>
-        <label for="" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
+        <label for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label"> Email<input type="email" id="email" placeholder="Enter your email" required /></label>
+        <label for="number" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
     </fieldset>
+
+    Which option best describes your current role? <select name="" id="dropdown">
+        <option value="">Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time-job">Full-Time Job</option>
+    </select>
+
+    <input type="radio" name="recommend" id="definitely"> Definitely 
+    <input type="radio" name="recommend" id="maybe"> Maybe 
+    <input type="radio" name="recommend" id="not-sure"> Not sure 
+
+    <input type="checkbox" name="" id="">
+    <input type="checkbox" name="" id="">
+    <input type="checkbox" name="" id="">
+
+    <input type="text" name="" id="" width="50px" height="50px">
+
+    <button type="submit" id="submit">Submit</button>
+
     </form>
     
 </body>
