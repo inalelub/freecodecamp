@@ -7,51 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <h1 id="title">Survey Form</h1>
     <p id="description">We appreciate your participation in our industry. Please take the survey & leave any comments or suggestions below to help with future improvements.</p>
 
-    <main>
-        <form id="survey-form" action="" method="post" />
+    <form id="survey-form" action="" method="post" />
 
-        <fieldset>
-            <label for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
-            <label for="email" id="email-label"> Email <input type="email" id="email" placeholder="Enter your email" required /></label>
-            <label for="number" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
-        </fieldset>
+    <fieldset>
+        <label for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label"> Email <input type="email" id="email" placeholder="Enter your email" required /></label>
+        <label for="number" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
+    </fieldset>
 
-        <fieldset>
-            <legend>Are you currently a studying?</legend>
-            <input type="radio" name="studying" id="radioYes" value="yes"> Yes 
-            <input type="radio" name="studying" id="radioNo" value="no"> No 
-            <input type="radio" name="studying" id="radioNotToSay" value="nottosay"> Prefer Not To Say
-        </fieldset>
+    <fieldset>
+        <label>Are you currently a studying?</label>
+        <label for="radioYes"><input type="radio" name="studying" id="radioYes" value="yes"> Yes</label>
+        <label for="radioNo"><input type="radio" name="studying" id="radioNo" value="no"> No</label>
+        <label for="radioNotToSay"><input type="radio" name="studying" id="radioNotToSay" value="nottosay"> Prefer Not To Say</label>
+    </fieldset>
 
-        <fieldset>
-            <legend>Which platform do you use?</legend>
-            <input type="checkbox" name="windows" id="windows" value="win"> Windows
-            <input type="checkbox" name="macos" id="macos" value="mac"> Mac OS
-            <input type="checkbox" name="linux" id="linux" value="lin"> Linux
-        </fieldset>
+    <fieldset>
+        <label>Which platform do you use?</label>
+        <label for="windows"><input type="checkbox" name="windows" id="windows" value="win"> Windows</label>
+        <label for="macos"><input type="checkbox" name="macos" id="macos" value="mac"> Mac OS</label>
+        <label for="linux"><input type="checkbox" name="linux" id="linux" value="lin"> Linux</label>
+    </fieldset>
 
-        <fieldset>
-            <legend>What is your favourite feature of freeCodeCamp?</legend>
-            <select name="" id="dropdown">
-                <option value="">Select an option</option>
-                <option value="challenges">Challenges</option>
-                <option value="projects">Projects</option>
-                <option value="community">Community</option>
-                <option value="opensource">Open Source</option>
-            </select>
-        </fieldset>
+    <fieldset>
+        <label>What is your favourite feature of freeCodeCamp?</label>
+        <select name="" id="dropdown">
+            <option value="">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="opensource">Open Source</option>
+        </select>
+    </fieldset>
 
-        <fieldset>
-            <legend>Any comments or suggestions?</legend>
-            <textarea name="comments" id="textareasection" cols="150" rows="10"></textarea>
-        </fieldset>
+    <label for="comments">Any comments or suggestions?</label>
+    <textarea name="comments" id="textareasection" cols="30" rows="10"></textarea>
 
-        <button type="submit" id="submit">Submit</button>
+    <input type="submit" value="Submit">
 
-        </form>
-    </main>
+    </form>
 </body>
 </html>

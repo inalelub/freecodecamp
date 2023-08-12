@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* background-color: black; */
+    /* color: white; */
+}
+
+h1, p {
+    text-align: center;
+    margin: 1em auto; /* margin deals with space around the element */
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto; /* since the width of this element is fix, we set the space around the element from the top to be 0 & sides to auto (which means let the browser decide according to the browser */
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0; /* padding deals with space "inside" the element & we set the top and bottom to 2rem as well as the sides to 0 */
+    /* border-bottom: 3px solid #3b3b3b; */
+}
+
+/* this will set the any fieldset element where the type of border bottom is select to change to none */
+
+/* fieldset:last-of-type {
+    border-bottom: none;
+} */
+
+label {
+    display: block; /* we're setting the label element to be a block type in order for it to appear in line by line */
+    margin: 0.5rem 0;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+textarea, input {
+    border: 1px solid black;
+    color: white;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: azure;
+    border-color: white;
+    min-width: 300px;
+    color: black;
+}
