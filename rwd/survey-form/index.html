@@ -8,34 +8,50 @@
 </head>
 <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">Please fill out the survey form below. Your contribution is much appreciated.</p>
+    <p id="description">We appreciate your participation in our industry. Please take the survey & leave any comments or suggestions below to help with future improvements.</p>
 
-    <form id="survey-form" action="" method="post" />
-    <fieldset>
-        <label for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
-        <label for="email" id="email-label"> Email<input type="email" id="email" placeholder="Enter your email" required /></label>
-        <label for="number" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
-    </fieldset>
+    <main>
+        <form id="survey-form" action="" method="post" />
 
-    Which option best describes your current role? <select name="" id="dropdown">
-        <option value="">Select current role</option>
-        <option value="student">Student</option>
-        <option value="full-time-job">Full-Time Job</option>
-    </select>
+        <fieldset>
+            <label for="name" id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+            <label for="email" id="email-label"> Email <input type="email" id="email" placeholder="Enter your email" required /></label>
+            <label for="number" id="number-label"> Age (optional) <input type="number" id="number" min="18" max="35" placeholder="Age" /></label>
+        </fieldset>
 
-    <input type="radio" name="recommend" id="definitely"> Definitely 
-    <input type="radio" name="recommend" id="maybe"> Maybe 
-    <input type="radio" name="recommend" id="not-sure"> Not sure 
+        <fieldset>
+            <legend>Are you currently a studying?</legend>
+            <input type="radio" name="studying" id="yes"> Yes 
+            <input type="radio" name="studying" id="no"> No 
+            <input type="radio" name="studying" id="nottosay"> Prefer Not To Say
+        </fieldset>
 
-    <input type="checkbox" name="" id="">
-    <input type="checkbox" name="" id="">
-    <input type="checkbox" name="" id="">
+        <fieldset>
+            <legend>Which platform do you use?</legend>
+            <input type="checkbox" name="" id=""> Windows
+            <input type="checkbox" name="" id=""> Mac OS
+            <input type="checkbox" name="" id=""> Linux
+        </fieldset>
 
-    <input type="text" name="" id="" width="50px" height="50px">
+        <fieldset>
+            <legend>What is your favourite feature of freeCodeCamp?</legend>
+            <select name="" id="dropdown">
+                <option value="">Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="opensource">Open Source</option>
+            </select>
+        </fieldset>
 
-    <button type="submit" id="submit">Submit</button>
+        <fieldset>
+            <legend>Any comments or suggestions?</legend>
+            <input type="text" name="" id="">
+        </fieldset>
 
-    </form>
-    
+        <button type="submit" id="submit">Submit</button>
+
+        </form>
+    </main>
 </body>
 </html>
