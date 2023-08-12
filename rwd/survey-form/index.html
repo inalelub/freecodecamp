@@ -21,16 +21,16 @@
 
         <fieldset>
             <legend>Are you currently a studying?</legend>
-            <input type="radio" name="studying" id="yes"> Yes 
-            <input type="radio" name="studying" id="no"> No 
-            <input type="radio" name="studying" id="nottosay"> Prefer Not To Say
+            <input type="radio" name="studying" id="radioYes" value="yes"> Yes 
+            <input type="radio" name="studying" id="radioNo" value="no"> No 
+            <input type="radio" name="studying" id="radioNotToSay" value="nottosay"> Prefer Not To Say
         </fieldset>
 
         <fieldset>
             <legend>Which platform do you use?</legend>
-            <input type="checkbox" name="" id=""> Windows
-            <input type="checkbox" name="" id=""> Mac OS
-            <input type="checkbox" name="" id=""> Linux
+            <input type="checkbox" name="windows" id="windows" value="win"> Windows
+            <input type="checkbox" name="macos" id="macos" value="mac"> Mac OS
+            <input type="checkbox" name="linux" id="linux" value="lin"> Linux
         </fieldset>
 
         <fieldset>
@@ -46,7 +46,7 @@
 
         <fieldset>
             <legend>Any comments or suggestions?</legend>
-            <input type="text" name="" id="">
+            <textarea name="comments" id="textareasection" cols="150" rows="10"></textarea>
         </fieldset>
 
         <button type="submit" id="submit">Submit</button>
