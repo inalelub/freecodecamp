@@ -44,6 +44,11 @@ input, textarea, select {
     min-height: 2em;
 }
 
+input[type="checkbox"], input[type="radio"] {
+    display: flexbox;
+    width: 10%;
+}
+
 textarea, input {
     border: 1px solid black;
     color: white;
