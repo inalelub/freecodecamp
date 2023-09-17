@@ -16,6 +16,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 /* The main part starts here */
@@ -42,12 +43,13 @@ img {
 #img-div {
     background-color: #ffffff;
     width: 100%; 
-    text-align: center;
 }
 
 #image {
     width: 60%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: auto;
+    padding-top: 20px;
 }
 
 #img-caption {
