@@ -7,62 +7,206 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="grid-wrapper-container">
+   <div class="grid-container">
 
     <nav id="navbar">
 
       <header>
-         Documentation
+         Java Documentation
       </header>
 
-      <a href="#HW1" class="nav-link">Hello World 1</a>
-      <a href="#HW2" class="nav-link">Hello World 2</a>
-      <a href="#HW3" class="nav-link">Hello World 3</a>
-      <a href="#HW4" class="nav-link">Hello World 4</a>
-      <a href="#HW5" class="nav-link">Hello World 5</a>
-      <a href="#HW6" class="nav-link">Hello World 6</a>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#Variable_Declarations" class="nav-link">Variable Declarations</a>
+      <a href="#For_Loops" class="nav-link">For Loops</a>
+      <a href="#Conditional_Statements" class="nav-link">Conditional Statements</a>
+      <a href="#Functions" class="nav-link">Functions</a>
+      <a href="#Arrays" class="nav-link">Arrays</a>
+      <a href="#Classes_And_Objects" class="nav-link">Classes And Objects</a>
+      <a href="#References" class="nav-link">References</a>
 
 
     </nav>
 
     <main id="main-doc">
 
-       <section id="HW1" class="main-section">
-         <header>Hello World 1</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+       <section id="Introduction" class="main-section">
+
+         <header class="bold">Introduction</header>
+
+         <p>Java is a versatile, object-oriented programming language known for its portability and robustness. This documentation covers essential concepts in Java, including variable declarations, for loops, conditional statements, functions, arrays, and classes and objects.</p>
       </section>
-       <section id="HW2" class="main-section">
-         <header>Hello World 2</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+      
+       <section id="Variable_Declarations" class="main-section">
+
+         <header class="bold">Variable Declarations</header>
+
+         <h5>1. Declaring Variables</h5>
+         <p>In Java, you can declare variables to store data. To declare a variable, use the following syntax:</p>
+         <code>data_type variable_name;</code>
+         <ul>
+            <li>`data_type`: The type of data the variable can hold (e.g., int, double, String).</li>
+            <li>`variable_name`: A unique indentifier for the variable.</li>
+         </ul>
+         <p>Example:</p>
+         <code>
+            int age;
+            double price;
+            String name;
+         </code>
+
+         <h5>2. Initializing Variables</h5>
+         <p>You can also initialize variables when declaring them:</p>
+         <code>
+            data_type variable_name = initial_value;
+         </code>
+         <p>Example:</p>
+         <code>
+            int count = 0;
+            double temperature = 25.5;
+            String greeting = "Hello, World!";
+         </code>
+
       </section>
-       <section id="HW3" class="main-section">
-         <header>Hello World 3</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+
+       <section id="For_Loops" class="main-section">
+
+         <header>For Loops</header>
+
+         <h3>1. The `for` Loop</h3>
+         <p>
+            A `for` loop is used for iterating over a range fo values or a collection of items. It consists of three parts:
+         </p>
+         <ul>
+            <li>Initialization: Setting an initial value.</li>
+            <li>Condition: Checking a condition to continue the loop.</li>
+            <li>Iteration: Modifying the value in each iteration.</li>
+         </ul>
+         <code>
+            for (initialzation; condition; iteration) {
+               // Code to be executed in each iteration
+            }
+         </code>
+         <p>Example:</p>
+         <code>
+            for (int i = 0; i < 5; i++) {
+               System.out.println("Iteration " + i);
+            }
+         </code>
+         <p>This loop will execute the code block five times, printing "Iteration 0" to "Iteration 4."</p>
+
+         <h5>2. Enhanced `for` Loop</h5>
+         <p>The enhanced `for` loop simplifies iterating over arrays and collections. It does not require explicit initialzation and incrementation, making it ideal for iterating through collections.</p>
+         <code>
+            for (data_type : array_or_collection) {
+               // Code to be executed for each element
+            }
+         </code>
+         <p>Example:</p>
+         <code>
+            int[] numbers = {1, 2, 3, 4, 5};
+            for (int num : numbers) {
+               System.out.println(num);
+            }
+         </code>
+         
       </section>
-       <section id="HW4" class="main-section">
-         <header>Hello World 4</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+
+       <section id="Conditional_Statements" class="main-section">
+
+         <header>Conditional Statements</header>
+
+         <h5>1. `if` Statement</h5>
+         <p>The if statement allows you to execute code based on a condition. If the condition is true, the code within the block is executed.</p>
+         <code>
+            if (condition) {
+               // Code to be executed if the condition is true
+            }
+         </code>
+
+         <h5>2. `else` Statement</h5>
+         <p>The else statement can be combined with if to specify code that should be executed if the condition is false.</p>
+         <code>
+            if (condition) {
+               // Code to be executed if the condition is true
+            } else {
+               // Code to be executed if the condition is false
+            }
+         </code>
+
+         <h5>3. `switch` Statement</h5>
+         <p>The switch statement is used to evaluate a variable against multiple possible values and execute different code blocks based on the matched value.</p>
+         <code>
+            switch (variable) {
+               case value1:
+               // Code to be executed if variable equals value1
+               break;
+               case value 2:
+               // Code to be executed if variable equals value1
+               break;
+               default:
+               // Code to be executed if variable equals value1
+            }
+         </code>
       </section>
-       <section id="HW4" class="main-section">
-         <header>Hello World 5</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+
+       <section id="Functions" class="main-section">
+
+         <header>Functions</header>
+
+         <h5>1. Defining Functions</h5>
+         <p>Functions (also known as methods) are blocks of reusable code. You can define your own functions to perform specific tasks.</p>
+         <code>
+            return_type function_name(parameters) {
+               // Function code
+            }
+         </code>
+
       </section>
-       <section id="HW5" class="main-section">
-         <header>Hello World 6</header>
-         <p>1 <code>push()</code></p>
-         <p>2</p>
-         <li></li>
+
+       <section id="Arrays" class="main-section">
+
+         <header>Arrays</header>
+
+         <h5>1. Declaring Arrays</h5>
+         <p>Arrays are collections of elements of the same data type. To declare an array, use the following syntax:</p>
+         <code>data_type[] array_name = new data_type[size];</code>
+
+         <h5>2. Accessing Elements</h5>
+         <p>You can access elements in an array using square brackets and the index of the element (starting from 0).</p>
       </section>
+
+       <section id="Classes_And_Objects" class="main-section">
+
+         <header>Classes And Objects</header>
+
+         <h5>Class Definition</h5>
+         <p>In Java, you can define classes to model real-world entities. A class defines attributes and methods that objects of the class can have.</p>
+         <code>
+            class ClassName {
+               // Class members (fields and methods)
+            }
+         </code>
+
+         <h5>Creating Objects</h5>
+         <p>To use a class, you need to create objects (instances) of that class.</p>
+         <code>ClassName objectName = new ClassName();</code>
+
+         <h5>Object-Oriented Principles</h5>
+         <p>Java follows object-oriented principles, including encapsulation, inheritance, and polymorphism, which enable modular and efficient programming. These principles are essential for designing complex software systems.</p>
+      </section>
+
+       <section id="References" class="main-section">
+
+         <header>References</header>
+
+         <p>Here are some useful references for further learning and exploring Java:</p>
+         <ol>
+            <li><a href="https://docs.oracle.com/en/java/">Official Java Documentation</a></li>
+            <li><a href="https://docs.oracle.com/javase/tutorial/">Java Tutorials by Oracle</a></li>
+            <li><a href="https://www.udemy.com/java-programming-for-beginners">Java Programming for Beginners - Udemy Course</a></li>
+         </ol>
+      </section>
+
     </main>
    </div> 
 </body>
