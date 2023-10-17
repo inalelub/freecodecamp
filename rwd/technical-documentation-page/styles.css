@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    border-right: solid;
+    height: 100%;
+}
+
+#navbar li {
+    list-style: none;
+    border-bottom: 1px solid;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+#navbar a {
+    padding: 10px 30px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (width <= 400px) {
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
