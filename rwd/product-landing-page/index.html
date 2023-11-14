@@ -10,8 +10,7 @@
 
     <header class="header-flex-main" id="header">
         <div class="icon-div">
-            <img src="https://www.image.com/" alt="icon" id="header-img">
-            <h1>Original Tombstones</h1>
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="icon" id="header-img">
         </div>
         <nav id="nav-bar">
             <ul class="header-flex">
@@ -26,7 +25,10 @@
 
         <section class="form-section">
             <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
-                <input type="email" name="email" id="email" placeholder="Email Address">
+                <label for="email">
+                    Personalized tombstones to honor your loved one
+                </label>
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail address">
                 <input type="submit" value="" id="submit">
             </form>
         </section>
@@ -61,14 +63,17 @@
     </main>
 
     <footer class="footer-flex-main">
-        <nav>
-            <ul class="footer-flex">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <p>Copyright 2023, Original Tombstones</p>
+        <span></span>
+        <div class="footer-end">
+            <nav>
+                <ul class="footer-flex">
+                    <li><a href="#" class="nav-link">Privacy</a></li>
+                    <li><a href="#" class="nav-link">Ts & Cs</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Copyright 2023, Original Tombstones</p>
+        </div>
     </footer>
 </body>
 </html>
