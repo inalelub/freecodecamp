@@ -5,3 +5,29 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+
+body {
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main, footer {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10px;
+}
+
+.header-flex-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.header-flex li {
+   list-style-type: none; 
+}
