@@ -96,3 +96,41 @@ img {
     margin-top: 5px;
 }
 
+/* Form */
+
+.submit-button, .email-input {
+    display: block;
+    margin: 10px;
+}
+
+#form-heading {
+    margin-top: 10%;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.submit-button {
+    margin-top: 5px;
+    width: 15%;
+    height: 1%;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #f1c40f; 
+    cursor: default;
+}
+
+.submit-button:hover {
+    background-color: #ffa500;
+    cursor: pointer;
+}
+
+.email-input {
+    padding: 5px;
+    width: 30%;
+    margin-top: 20px;
+}
