@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #eeeeee;
 }
 
@@ -23,6 +23,7 @@ main, footer {
     background-color: violet;
     text-decoration: none;
 }
+
 
 /* Navbar */
 
@@ -139,4 +140,20 @@ img {
 
 .features-section {
     margin-top: 15%;
+}
+
+.feature-list-1, .feature-list-2, .feature-list-3 {
+    list-style-position: outside;
+}
+
+.feature-list-3 {
+    list-style: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWhlYWRwaG9uZXMiPjxwYXRoIGQ9Ik0zIDE0aDNhMiAyIDAgMCAxIDIgMnYzYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi03YTkgOSAwIDAgMSAxOCAwdjdhMiAyIDAgMCAxLTIgMmgtMWEyIDIgMCAwIDEtMi0ydi0zYTIgMiAwIDAgMSAyLTJoMyIvPjwvc3ZnPg==);
+}
+
+.feature-list-1 {
+    list-style: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJlZC1zaW5nbGUiPjxwYXRoIGQ9Ik0zIDIwdi04YTIgMiAwIDAgMSAyLTJoMTRhMiAyIDAgMCAxIDIgMnY4Ii8+PHBhdGggZD0iTTUgMTBWNmEyIDIgMCAwIDEgMi0yaDEwYTIgMiAwIDAgMSAyIDJ2NCIvPjxwYXRoIGQ9Ik0zIDE4aDE4Ii8+PC9zdmc+);
+}
+
+.feature-list-2 {
+    list-style: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWN1Ym9pZCI+PHBhdGggZD0ibTIxLjEyIDYuNC02LjA1LTQuMDZhMiAyIDAgMCAwLTIuMTctLjA1TDIuOTUgOC40MWEyIDIgMCAwIDAtLjk1IDEuN3Y1LjgyYTIgMiAwIDAgMCAuODggMS42Nmw2LjA1IDQuMDdhMiAyIDAgMCAwIDIuMTcuMDVsOS45NS02LjEyYTIgMiAwIDAgMCAuOTUtMS43VjguMDZhMiAyIDAgMCAwLS44OC0xLjY2WiIvPjxwYXRoIGQ9Ik0xMCAyMnYtOEwyLjI1IDkuMTUiLz48cGF0aCBkPSJtMTAgMTQgMTEuNzctNi44NyIvPjwvc3ZnPg==);
 }
