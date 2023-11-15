@@ -175,3 +175,18 @@ img {
     margin-bottom: 5%;
 }
 
+/* Pricing Section */
+
+.pricing-section {
+    min-height: 350px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 285px;
+    height: 300px;
+}
