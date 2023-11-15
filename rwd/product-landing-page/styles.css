@@ -15,8 +15,8 @@ body {
 
 main, footer {
     width: 50%;
-    margin-left: 25%;
-    margin-right: 10px;
+    margin-left: 395px;
+    /* margin-right: 10px; */
 }
 
 .nav-link {
@@ -133,4 +133,10 @@ img {
     padding: 5px;
     width: 30%;
     margin-top: 20px;
+}
+
+/* Features Section */
+
+.features-section {
+    margin-top: 15%;
 }
