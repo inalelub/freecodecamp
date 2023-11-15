@@ -8,22 +8,19 @@
 }
 
 body {
-    height: 100vh;
     font-family: 'Roboto', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #eeeeee;
 }
 
 main, footer {
-    width: 50%;
+    width: 55%;
     margin-left: 395px;
-    /* margin-right: 10px; */
 }
 
 .nav-link {
     background-color: violet;
     text-decoration: none;
 }
-
 
 /* Navbar */
 
@@ -139,11 +136,7 @@ img {
 /* Features Section */
 
 .features-section {
-    margin-top: 15%;
-}
-
-.feature-list-1, .feature-list-2, .feature-list-3 {
-    list-style-position: outside;
+    margin-top: 12%;
 }
 
 .feature-list-3 {
@@ -157,3 +150,28 @@ img {
 .feature-list-2 {
     list-style: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWN1Ym9pZCI+PHBhdGggZD0ibTIxLjEyIDYuNC02LjA1LTQuMDZhMiAyIDAgMCAwLTIuMTctLjA1TDIuOTUgOC40MWEyIDIgMCAwIDAtLjk1IDEuN3Y1LjgyYTIgMiAwIDAgMCAuODggMS42Nmw2LjA1IDQuMDdhMiAyIDAgMCAwIDIuMTcuMDVsOS45NS02LjEyYTIgMiAwIDAgMCAuOTUtMS43VjguMDZhMiAyIDAgMCAwLS44OC0xLjY2WiIvPjxwYXRoIGQ9Ik0xMCAyMnYtOEwyLjI1IDkuMTUiLz48cGF0aCBkPSJtMTAgMTQgMTEuNzctNi44NyIvPjwvc3ZnPg==);
 }
+
+.quality-materials, .personalized-tombstones, .compassionate-services {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.personalized-tombstones {
+    margin-top: 0;
+}
+
+/* How It Works Section */
+
+#how-it-works > iframe {
+    width: 100%;
+    max-width: 560px;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
