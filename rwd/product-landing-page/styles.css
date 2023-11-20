@@ -189,4 +189,42 @@ img {
 .card {
     width: 285px;
     height: 300px;
+    text-align: center;
+}
+
+#pricing .cards header, .price {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-select {
+    text-transform: uppercase;
+}
+
+.card > header > p {
+    padding: 5%;
+}
+
+.c1 {
+    width: 295px;
+}
+
+.discription, .price {
+    padding: 10px;
+}
+
+.c1 .discription {
+    padding: 10px;
+}
+
+.card > button {
+    padding: 3% 7%;
+}
+
+.c2 > button {
+    margin-top: 19px;
+}
+
+.c1 > button {
+    margin-top: 55px;
 }
