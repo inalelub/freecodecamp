@@ -13,22 +13,27 @@ body {
 }
 
 main, footer {
-    width: 55%;
-    margin-left: 395px;
+    /* width: 55%;
+    margin-left: 395px; */
+
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; /* this right here center's a div */
 }
 
 .nav-link {
-    /* background-color: violet; */
     text-decoration: none;
 }
 
 /* Navbar */
 
-.header-flex-main {
+#header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 75px;
 }
 
 img {
@@ -36,28 +41,35 @@ img {
 }
 
 .icon-div {
-    margin-left: -20%;
+    /* margin-left: -20%; */
+    width: 60vw;
 }
 
-#nav-bar {
+/* #nav-bar {
     width: 35%;
     margin-right: -20%;
     margin-left: -200px;
-}
+} */
 
 
 .header-flex {
     display: flex;
-    justify-content: space-between;
-    /* background-color: aquamarine; */
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: space-around;
+    width: 35vw;
+    flex-direction: row;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 }
 
 .header-flex li {
    list-style-type: none; 
    text-decoration-style: none;
    margin: 2px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
 }
 
 /* Footer */
@@ -79,7 +91,6 @@ img {
 .footer-flex {
     display: flex;
     justify-content: space-between;
-    /* background-color: blue; */
     padding-left: 22px;
     padding-right: 22px;
 }
@@ -92,6 +103,10 @@ img {
 
 .footer-end p {
     margin-top: 5px;
+}
+
+.nav-link-f {
+    text-decoration: none;
 }
 
 /* Form */
@@ -236,4 +251,32 @@ img {
 
 .c1 > button {
     margin-top: 55px;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+
+    main, footer {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        min-height: 75px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .icon-div {
+        /* margin-left: -20%; */
+        width: 60vw;
+    }
 }
