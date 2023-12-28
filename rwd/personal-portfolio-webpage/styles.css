@@ -5,14 +5,25 @@
     /* border: 1px solid black; */
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    /* background-color: #1c1c1d; */
+}
+
+li {
+    list-style: none;
+}
+
 /* The Header */
 
+/* This sets the navbar at the top of the viewport, as well as other stuff. */
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1030;
+    z-index: 1;
     border-bottom: 1px solid black;
     background-color: #000000;
 }
@@ -31,9 +42,6 @@
     gap: 50px;
 }
 
-#tabs li {
-    list-style: none;
-}
 
 #tabs li a {
     text-decoration: none;
@@ -45,12 +53,23 @@
     height: 100vh;
 }
 
+/* This is set because the navbar is set at the top of the viewport. So, this means that the content below it doesn't overlap the navbar whenver you load the page. */
 .welcome-container {
     margin-top: 110px;
 }
 
+/* This section is set so that the two sections are centered & have a total width of 800px. The scroll margin top is set to be exact as the margin-top of the .welcome-container so that whenver you click the link at the navbar, the content starts where the contact usually starts whenever you load the page afresh.  */
 #projects, #welcome-section {
     max-width: 800px;
     margin: 0 auto;
+    scroll-margin-top: 110px;
 }
 
+.contact ul li a {
+    text-decoration: none;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+}
