@@ -2,13 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid black; */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    /* background-color: #1c1c1d; */
 }
 
 li {
@@ -65,10 +63,6 @@ li {
     scroll-margin-top: 110px;
 }
 
-#projects {
-    /* background-color: #865DFF */
-}
-
 .contact ul li a {
     text-decoration: none;
 }
@@ -120,4 +114,45 @@ li {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Final Touches */
+#bold-name {
+    font-weight: bold;
+}
+
+#links {
+    color: black;
+}
+
+#links:hover {
+    color: red;
+}
+
+#nav-links {
+    color: black;
+}
+
+#nav-links:hover {
+    color: red;
+}
+
+/* Media Query */
+@media (max-width: 630px) {
+
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .profile-picture {
+        margin-top: 20px;
+    }
 }
